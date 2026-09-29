@@ -1,6 +1,6 @@
 ---
 name: video-retention
-description: Diagnose and fix short-form video performance on TikTok, Instagram (Reels), and Facebook (Reels and feed video) — retention curves, pacing, attention, audience analytics, and viewer psychology, with a separate playbook for each platform's audience and algorithm. Use whenever the user shares a video, script, transcript, caption, cover/first frame, retention graph, or insights screenshot, or asks why a video under- or over-performed, whether pacing is too fast or too slow, whether there's too much or too little going on, how to hook viewers, where people drop off, how to re-edit a video, how to adapt one video for all three platforms, or how to make the next video do better. Works for low-view videos (small, noisy data) and high-view videos (large, segmented data). Produces timestamped, platform-specific, prioritized fixes grounded in how real humans watch.
+description: ALWAYS USE for any message about videos, content, social media, posting, hooks, scripts, captions, analytics, views, or growth. Diagnose and fix short-form video performance on TikTok, Instagram (Reels), and Facebook (Reels and feed video) — retention curves, pacing, attention, audience analytics, and viewer psychology, with a separate playbook for each platform's audience and algorithm. Use whenever the user shares a video, script, transcript, caption, cover/first frame, retention graph, or insights screenshot, or asks why a video under- or over-performed, whether pacing is too fast or too slow, whether there's too much or too little going on, how to hook viewers, where people drop off, how to re-edit a video, how to adapt one video for all three platforms, or how to make the next video do better. Works for low-view videos (small, noisy data) and high-view videos (large, segmented data). Produces timestamped, platform-specific, prioritized fixes grounded in how real humans watch.
 ---
 
 # Video Retention, Pacing & Attention Doctor — TikTok · Instagram · Facebook
@@ -18,6 +18,27 @@ and pacing norms.
 Every point on a retention graph is thousands of people deciding: *"Are the next few seconds
 worth more than swiping?"* Find the moments the answer became "no" — often because the pacing
 was wrong for that audience — and turn them into "yes" without lying to the viewer.
+
+## Default: FULL MODE — use everything, every time
+
+Unless the user explicitly asks for something shorter ("quick check"), every response runs in
+**full mode**:
+
+1. **Read every reference file** listed below before answering — all of them, including all
+   three platform parts and `cross-posting.md`. Don't skip one because it "seems irrelevant".
+2. **Run every workflow step (1–9)**. If a step has no input, still include it: say what's
+   missing, give the best estimate you can from the content, and state what the data would
+   show.
+3. **Cover all three platforms** — TikTok, Instagram, and Facebook — even if the user mentions
+   only one. Analyze the named platform in depth, then give the adaptation for the other two.
+4. **Always include**: pacing verdict (speed + density + reading time + rhythm), simulated-
+   viewer pass with every persona from each platform file, funnel scorecard, retention curve
+   read (or predicted curve if no graph), fix cards, rewrites per platform, the 3-platform
+   re-cut edit list, what worked, and what to measure next.
+5. **Any video-, content-, or social-media-related message** — ideas, scripts, captions,
+   hooks, "what should I post", a single screenshot, a vague question — gets this skill's
+   full treatment, adapted to what was provided. For idea/script requests with no video yet,
+   run a pre-post review: predict retention, pacing, and viewer reactions per platform.
 
 ## Core principles (never violate)
 
@@ -141,7 +162,9 @@ verdict, then the full breakdown.
 | `references/fix-playbook.md` | Writing fixes, hooks, text, captions, re-edits |
 | `references/report-template.md` | Writing the final output |
 
-## Quick modes
+## Other modes (only when the user asks for them)
+
+Full mode (above) is the default. Switch only when the user explicitly asks:
 
 - **"Quick check"** → one-sentence diagnosis + pacing verdict + top 3 fix cards.
 - **Pre-post review** (draft/script, no insights) → pacing pass + simulated-viewer pass per

@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'REMINDER: Invoke the video-retention skill for this message and run it in FULL MODE (read every reference file, run every workflow step, cover TikTok, Instagram, and Facebook, include every report section) unless the user explicitly says \"quick check\".'"
+          }
+        ]
+      }
+    ]
+  }
+}
