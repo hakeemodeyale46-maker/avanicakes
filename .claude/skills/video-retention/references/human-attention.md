@@ -18,7 +18,7 @@ competing with the next video, which is algorithmically chosen to be interesting
 ## The viewer's inner questions (in order)
 
 1. **"Is this what I clicked for?"** (first 1–10s) — Visible confirmation of the
-   title/thumbnail promise. If the thumbnail shows a finished cake, show it (or its
+   first-frame/text/caption promise. If the first frame shows a finished cake, show it (or its
    imminent creation) immediately. Mismatch = instant exit.
 2. **"Is this going to be good?"** (first 30s) — Signals of quality, competence,
    personality, and that there's a reason to keep watching (stakes, a question, a goal).
@@ -27,7 +27,7 @@ competing with the next video, which is algorithmically chosen to be interesting
 4. **"Do I already know this?"** (body) — Repetition and obvious information kill attention.
    Experts leave during basics; beginners leave during jargon.
 5. **"Can I skip ahead?"** (body) — If they can predict what's coming, they scrub or leave.
-6. **"Was that worth it?"** (end) — Drives likes, shares, subscribes, and whether the
+6. **"Was that worth it?"** (end) — Drives likes, shares, follows, and whether the
    platform recommends it again.
 
 Map every drop to the question the viewer answered "no" to.
@@ -36,25 +36,32 @@ Map every drop to the question the viewer answered "no" to.
 
 | Source | Mindset | What they need |
 |---|---|---|
-| Home/Browse feed | Idle, open to anything, low commitment | Immediate proof it's entertaining/valuable |
-| Suggested (next to a video) | In a topic "mood", comparing to what they just watched | Something the previous video didn't give them |
-| Search | Specific question, goal-driven, impatient | The answer, fast; they'll leave the moment they have it |
-| Shorts/TikTok/Reels feed | Scrolling, thumb ready, sound often on (TikTok) or mixed (Reels) | A reason to stop in under 2 seconds |
-| Subscriptions/notifications | Fans, high trust | Personality, consistency; tolerate slower starts |
-| External (link, chat, social) | Sent by someone, curious why | Quick payoff of what they were told |
+| TikTok For You | Scrolling fast, sound on, thumb ready | A reason to stop in ~1 second |
+| TikTok search | Specific question, goal-driven, impatient | The answer, fast |
+| Instagram Reels tab / Explore | Browsing for beauty, fun, relatability; may be muted | Striking first frame; something worth sending |
+| Instagram feed (followers) | Knows the account, more tolerant | Personality, consistency |
+| Facebook feed | Relaxed, mixed with friends/family posts, often muted, often older | Clear story in the first frame + big readable text |
+| Facebook Reels | Faster, younger-leaning mindset than feed | Quicker hook, but still muted-friendly |
+| Shares (DM, Messenger, groups) | Sent by someone they know, curious why | Quick payoff of what they were told |
+| Profile / following | Fans, high trust | Tolerate slower starts |
 
 A single video serves several mindsets. When the data allows, split retention by traffic
-source — "search viewers leave at 1:10 when the answer is given" and "browse viewers leave at
-0:08 because the opening isn't entertaining" are two different problems.
+source or platform — "TikTok search viewers leave at 0:12 when the answer is given" and
+"Facebook feed viewers leave at 0:04 because the text is too small to read muted" are two
+different problems.
 
 ## The physical context
 
 Assume by default:
 - **Phone, vertical or small landscape.** Tiny text is unreadable; small details are invisible;
   faces and bold shapes read well.
-- **Partial attention.** Kitchen, commute, bed, bathroom, second screen. Audio may carry the
-  video while eyes are elsewhere (long-form), or eyes carry it with sound off (some feeds).
-- **Sound-off risk.** Burned-in captions / on-screen text protect against it.
+- **Partial attention.** Kitchen, commute, bed, bathroom, TV on in the background.
+- **Sound-off risk.** Common on Facebook and Instagram. Burned-in captions / on-screen text
+  protect against it.
+- **Age and eyesight.** Older viewers (more common on Facebook) need larger text, higher
+  contrast, and more time per shot. Check the account's age data.
+- **Pacing fit.** The same pace can feel exciting to one audience and exhausting to another —
+  see `pacing.md`.
 - **Interruptions.** A notification can end the session regardless of content.
 
 ## Attention drivers (raise expected value)
@@ -79,7 +86,7 @@ Assume by default:
 
 ## Attention killers (raise the cost)
 
-- **Preamble** — "Hey guys, welcome back, before we start, make sure to subscribe…"
+- **Preamble** — "Hey guys, welcome back, before we start, make sure to follow…"
 - **Logo/intro sequences** — especially for new viewers.
 - **Explaining what you're about to do instead of doing it.**
 - **Repetition** — saying the same point twice, recapping too early.
@@ -89,7 +96,7 @@ Assume by default:
 - **Energy drop** — music stops, tone flattens, a boring segment after an exciting one.
 - **False endings** — "So that's it", "to wrap up", "finally" — the viewer's brain hears "done".
 - **Sponsor/ad reads** — especially without transition or placed right before the payoff.
-- **Broken promise** — the thumbnail's moment never arrives, or arrives much later than felt.
+- **Broken promise** — the first frame's promised moment never arrives, or arrives much later than felt.
 - **Payoff too early** — the answer arrives and nothing new is promised.
 - **Mismatched tone** — expected fun, got a lecture (or vice versa).
 - **Condescension or over-hype** — "you WON'T believe this" followed by something ordinary.
@@ -99,9 +106,11 @@ Assume by default:
 1. Pick 2–3 personas relevant to this video, e.g.:
    - **Cold scroller** — came from the feed, no idea who the creator is, low patience.
    - **Goal seeker** — came from search, wants a specific answer.
-   - **Fan** — subscriber, likes the creator, tolerant.
+   - Prefer the platform-specific personas in `platforms/<platform>.md`.
+   - **Fan** — follower, likes the creator, tolerant.
    - **Skeptic/expert** — knows the topic, leaves at fluff or errors.
-2. Walk through the content in beats (1–3s for shorts, 10–30s for long-form).
+2. Walk through the content in beats of ~1–3 seconds (~3–5s for longer Facebook videos).
+   For each beat also note the pacing (too fast / too slow / too much / too little).
 3. For each beat and persona record: `LEAN IN / NEUTRAL / LEAN OUT` + the reason in the
    viewer's voice (e.g., *"I've seen three cake intros like this, where's the disaster?"*).
 4. Mark the beats where 2+ personas lean out — those are predicted drops.
@@ -133,6 +142,6 @@ it (e.g., put the most share-worthy moment where the most viewers are still watc
 ## Ethical guardrails
 
 Engineer attention by making the video genuinely better, clearer, and more honest about what
-it delivers. Don't recommend deception, fake stakes, misleading thumbnails, fake giveaways, or
+it delivers. Don't recommend deception, fake stakes, misleading first frames or captions, fake giveaways, or
 manipulative emotional content. They tend to hurt satisfaction signals and long-term reach
 anyway.

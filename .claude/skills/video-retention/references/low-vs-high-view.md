@@ -29,15 +29,16 @@ Use this to label each finding with confidence and to avoid over-reading bumps.
 ### Micro (< ~100 views)
 The curve is a handful of people. Don't diagnose timestamps from it.
 Do this instead:
-1. **Packaging-first**: is the title/thumbnail clear, specific, and desirable at phone size?
-   Is the topic something people actually want (search demand, trends, competitor results)?
+1. **Packaging-first**: is the first frame + on-screen text + caption clear, specific, and
+   desirable at phone size, muted?
+   Is the topic something people actually want (trends, search, what similar accounts get)?
 2. **Content audit**: full simulated-viewer pass. Predict drops from the content itself.
 3. **Hook audit**: first 3s (short) / 15s (long) scrutinized line by line.
-4. **Aggregate across videos**: combine the creator's last 5–20 videos. Patterns in APV,
-   first-30s retention, and CTR across videos are far more reliable than one video.
+4. **Aggregate across videos**: combine the creator's last 5–20 videos. Patterns in average
+   watch time ÷ length, first-3s retention, and skip rate / 3-second views across videos are far more reliable than one video.
 5. **Qualitative signals**: any comments, what people say, shares.
 6. **Distribution check**: if impressions are tiny, the platform hasn't tested it. This is
-   often a channel-level issue (consistency, topic clarity, packaging) not a video issue.
+   often a account-level issue (consistency, topic clarity, packaging) not a video issue.
 7. State plainly: "At this view count the retention graph is too noisy to pinpoint drops.
    This analysis is based mainly on the content and packaging."
 
@@ -50,20 +51,21 @@ Do this instead:
 ### Medium (~1,000–10,000)
 - Dips of ~5+ points are real. Map them to content.
 - Traffic-source splits become usable (if one source has enough views).
-- Compare CTR and retention across the creator's videos to find what differs.
+- Compare stop metrics (skip rate, 3-sec views) and retention across the creator's videos to find what differs.
 
 ### High (10,000+)
 - Every noticeable dip/spike is meaningful.
 - **Segment**: traffic source, new vs returning, device (mobile vs TV vs desktop), country
-  /language, subscribed vs not.
+  /language, follower vs non-follower.
 - **Time slices**: early (first 48h, fan-heavy) vs later (colder audience). Retention and
-  CTR usually drop as reach broadens — this is expected. A big drop only in later viewers
+  stop rates usually drop as reach broadens — this is expected. A big drop only in later viewers
   means the video works for fans but not for strangers (packaging/hook assumes context).
-- **Audience broadening**: identify when/where the video broke out (e.g., Browse or
-  Suggested jumped) and what the new audience's retention looks like.
-- **Winner analysis**: identify what's replicable — topic, angle, title structure, thumbnail
+- **Audience broadening**: identify when/where the video broke out (e.g., non-follower
+  reach jumped, For You share rose, shares to groups/DMs spiked) and whether the new
+  audience is a different age group needing different pacing.
+- **Winner analysis**: identify what's replicable — topic, angle, first frame, hook text,
   composition, hook type, length, pacing, format — and what was luck/timing (trend, news,
-  a big channel linking it).
+  a big account sharing it).
 - **Ceiling analysis**: even winners leave value on the table. Find the biggest dips and
   the longest outro — those are the next video's upside.
 
@@ -73,13 +75,13 @@ Do this instead:
 Low views
 ├── Impressions very low?
 │   ├── Yes → distribution problem
-│   │   ├── New/small channel: platform lacks data about who to show it to →
+│   │   ├── New/small account: platform lacks data about who to show it to →
 │   │   │   consistent topic, clear packaging, post regularly, collaborations
 │   │   ├── Topic has little demand → check search/trend interest, competitor results
-│   │   └── Early viewers (subs) didn't respond → packaging/hook for the core audience
+│   │   └── Early viewers (followers) didn't respond → packaging/hook for the core audience
 │   └── No → continue
-├── CTR / viewed-vs-swiped low (vs creator's baseline)?
-│   └── Yes → packaging problem (title, thumbnail, first frame, topic appeal)
+├── Stop rate poor (early drop, IG skip rate, FB 3-sec views ÷ reach)?
+│   └── Yes → first-frame problem (image, text hook, topic appeal)
 ├── Early retention low (hook zone)?
 │   └── Yes → hook problem or promise mismatch
 ├── Middle slope steep / cliffs?
@@ -87,26 +89,30 @@ Low views
 ├── Retention OK but engagement/subs very low?
 │   └── Yes → satisfaction problem (payoff weak, no reason to care, no CTA at the peak)
 └── Everything decent but still small?
-    └── Patience + volume: small channels grow in steps; the next video's packaging and
+    └── Patience + volume: small accounts grow in steps; the next video's packaging and
         topic choice matter more than micro-edits here.
 ```
 
 ## Diagnosing "why did this one blow up?" (high-view)
 
 Check in order:
-1. **Packaging**: what's different about this title/thumbnail vs the creator's others?
+1. **Packaging**: what's different about this first frame / hook text / caption vs the creator's others?
 2. **Topic**: broader appeal? Trend? Search demand? A universal emotion?
 3. **Hook**: faster to the point? Stronger promise? Visual confirmation earlier?
 4. **Structure**: more open loops? Better escalation? Stronger ending?
-5. **Traffic source**: where did the surge come from (Browse, Suggested next to a big video,
-   Shorts feed, external share)? That tells you who the new audience is.
-6. **Timing/luck**: news, trend, collaboration, a share from a large account.
+5. **Traffic source**: where did the surge come from (TikTok For You, Instagram Reels/Explore,
+   Facebook feed/Reels, shares in DMs or groups)? That tells you who the new audience is.
+6. **Pacing fit**: did this video's pacing suit the platform's audience better than usual?
+7. **Timing/luck**: news, trend, collaboration, a share from a large account or group.
 
 Output: a "repeat this" list and a "this was luck" list. Be honest about which is which.
 
 ## Comparing videos fairly
 
 - Compare at the same age (e.g., first 7 days) — not a 2-year-old video vs a 2-day-old one.
-- Compare similar lengths and formats (don't compare a Short's APV to a 20-min video's).
-- Normalize: views ÷ subscribers, subs gained ÷ 1,000 views, engagement ÷ views.
+- Compare similar lengths and formats, and the same platform (don't compare a TikTok's
+  completion with a Facebook video's).
+- When the same video is on all three platforms, compare per-platform — differences usually
+  reveal pacing or audience mismatches.
+- Normalize: views ÷ followers, follows gained ÷ 1,000 views, engagement ÷ views.
 - Look for patterns across ≥3–5 videos before calling something a rule.
